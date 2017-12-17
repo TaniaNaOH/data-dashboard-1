@@ -3,12 +3,38 @@
   <head>
     <meta charset="utf-8">
     <title>Data Dashboard</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script>
+      <h1> DATA DASHBOARD </h1>
+      <main>
+      <select id="menu" title="Escoge la sede y generación">
+           <option> Arequipa 2016 - II </option>
+           <option> Arequipa 2017 - I  </option>
+           <option> CDMX 2017 - I      </option>
+           <option> CDMX 2017 - II     </option>
+           <option> Lima 2016 - II     </option>
+           <option> Lima 2017 - I      </option>
+           <option> Lima 2017 - II     </option>
+           <option> Santiago 2016 - II </option>
+           <option> Santiago 2017 - I  </option>
+           <option> Santiago 2017 - II </option>
+        </select>
+           </main>
+
+        <section id="main-grafics">
+    <canvas id="myChart"  width="10" height="5"></canvas>
+    <canvas id="myChart2" width="10" height="5"></canvas>
+
+
+   </section>
+
+    <!-- Base de datos -->
+    <script src="./js/data.js"></script>
+    <!-- Aquí va tus archivos JS -->
+
+    <script src="./js/app.js"></script>
   </head>
   <body>
 
-		<!-- Base de datos -->
-		<script src="./js/data.js"></script>
-		<!-- Aquí va tus archivos JS -->
-    <script src="./js/app.js"></script>
   </body>
 </html>

@@ -1,3 +1,26 @@
 /*
  * Estilos de tu proyecto
  */
+h1 {
+  color: black;
+  font-size: 200;
+  text-align: center;
+}
+
+#Menu {
+	position:absolute;
+	left:189px;
+	top:0px;
+	width:75px;
+	height:44px;
+	z-index:1;
+}
+
+body {
+  color: #000;
+    background: ;
+  background-size:auto;
+  font-family:'roboto', monospace;
+  margin: 0% 0%;
+  padding: 0%;
+}
