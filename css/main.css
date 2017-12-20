@@ -14,7 +14,15 @@
    font-size: 30px;
    text-align: center;
   font-family: 'Quattrocento Sans', sans-serif;
- }
+  }
+
+  h3 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+   background-color: #F7B617
+  }
 
  p {
    color: black;
